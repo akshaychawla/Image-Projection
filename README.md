@@ -19,4 +19,4 @@ The module warp.py just depends on Numpy and matplotlib libraries.
 
 Look at the included script test_warp.py in order to understand how to use the warp module. An example output is shown below. 
 
-
+![image_warping](https://cloud.githubusercontent.com/assets/8658591/18441209/c8f540ee-7929-11e6-8dc7-0d73de959d7c.png)
