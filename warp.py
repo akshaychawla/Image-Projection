@@ -66,7 +66,7 @@ def inverse_warp(logo, video, H, video_pts):
 		y_l = min(y_l,logo.shape[0]-1)
 
 		# copying over pixel data
-		video_copy[pt[1],pt[0]] = logo[y_l, x_l]*255
+		video_copy[pt[1],pt[0]] = logo[y_l, x_l]
 
 	# return the video_copy 
 	return video_copy
